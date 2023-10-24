@@ -23,7 +23,7 @@
                                  VerticalOptions="Center">
                 <ImageButton Source="numbers.png"
                              Aspect="AspectFit"
-                             HeightRequest="150"
+                             HeightRequest="120"
                              CommandParameter="Numbers"
                              Clicked="ImageButton_Clicked"/>
                 <Label Text="Numbers" HorizontalOptions="Center"/> 
@@ -34,10 +34,10 @@
                 Grid.Column="1"
                 Padding="20">
             <VerticalStackLayout Spacing="10"
-                         VerticalOptions="Center">
+                                 VerticalOptions="Center">
                 <ImageButton Source="abc.png"
                      Aspect="AspectFit"
-                     HeightRequest="150"
+                     HeightRequest="120"
                      CommandParameter="Letters"
                      Clicked="ImageButton_Clicked"/>
                 <Label Text="Letters" HorizontalOptions="Center"/>
@@ -48,10 +48,10 @@
                 Grid.Column="0"
                 Padding="20">
             <VerticalStackLayout Spacing="10"
-                 VerticalOptions="Center">
+                                 VerticalOptions="Center">
                 <ImageButton Source="shapes.png"
                             Aspect="AspectFit"
-                            HeightRequest="150"
+                            HeightRequest="120"
                             CommandParameter="Shapes"
                             Clicked="ImageButton_Clicked"/>
                 <Label Text="Shapes" HorizontalOptions="Center"/>
@@ -65,10 +65,38 @@
                                  VerticalOptions="Center">
                 <ImageButton Source="color.png"
                             Aspect="AspectFit"
-                            HeightRequest="150"
+                            HeightRequest="120"
                             CommandParameter="Colors"
                             Clicked="ImageButton_Clicked"/>
                 <Label Text="Colors" HorizontalOptions="Center"/>
+            </VerticalStackLayout>
+        </Border>
+        
+        <Border Grid.Row="3"
+                Grid.Column="0"
+                Padding="20">
+            <VerticalStackLayout Spacing="10"
+                                 VerticalOptions="Center">
+                <ImageButton Source="fruits.png"
+                     Aspect="AspectFit"
+                     HeightRequest="120"
+                     CommandParameter="Fruits"
+                     Clicked="ImageButton_Clicked"/>
+                <Label Text="Fruits" HorizontalOptions="Center"/>
+            </VerticalStackLayout>
+        </Border>
+        
+        <Border Grid.Row="3"
+                Grid.Column="1"
+                Padding="20">
+            <VerticalStackLayout Spacing="10"
+                                 VerticalOptions="Center">
+                <ImageButton Source="animal.png"
+                     Aspect="AspectFit"
+                     HeightRequest="120"
+                     CommandParameter="Animals"
+                     Clicked="ImageButton_Clicked"/>
+                <Label Text="Animals" HorizontalOptions="Center"/>
             </VerticalStackLayout>
         </Border>
 
